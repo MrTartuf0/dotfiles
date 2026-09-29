@@ -1,0 +1,23 @@
+alt + cmd - space : open ~/Downloads
+alt - return : open -na Terminal
+
+alt - b : open -na "Google Chrome"
+fn - y : yabai --restart-service
+
+alt - f : yabai -m window --toggle zoom-fullscreen --focus
+
+# focus space
+alt - 1 : yabai -m space --focus prev
+alt - 2 : yabai -m space --focus next
+
+# Move the current window to a chosen desktop (1-10) and follow focus to that desktop
+alt + lshift - 1 : yabai -m window --space 1 && yabai -m space --focus 1
+alt + lshift - 2 : yabai -m window --space 2 && yabai -m space --focus 2
+alt + lshift - 3 : yabai -m window --space 3 && yabai -m space --focus 3
+alt + lshift - 4 : yabai -m window --space 4 && yabai -m space --focus 4
+alt + lshift - 5 : yabai -m window --space 5 && yabai -m space --focus 5
+alt + lshift - 6 : yabai -m window --space 6 && yabai -m space --focus 6
+alt + lshift - 7 : yabai -m window --space 7 && yabai -m space --focus 7
+alt + lshift - 8 : yabai -m window --space 8 && yabai -m space --focus 8
+alt + lshift - 9 : yabai -m window --space 9 && yabai -m space --focus 9
+alt + lshift - 0 : yabai -m window --space 10 && yabai -m space --focus 10
